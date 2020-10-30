@@ -5,6 +5,7 @@ Intensive Care Unit (ICU) admission rates and current occupancy for COVID-19
 by date and country. 
 Each row contains the corresponding data for a certain date (day or week) and per country.
 ```
+
 ## Collecting Data From
 * Data from European Centre for Disease Prevention and Control
  
@@ -20,6 +21,12 @@ to know key insigths of the data.
 ## Visualization Tools
    1. **Tableau**
    2. **Excel**
+
+## Screenshots
+* Dataframe  before cleaning 
+
+![df before cleaning](https://user-images.githubusercontent.com/47696240/97710170-10a39400-1ac4-11eb-88df-24f324d5b38b.png)
+
 ## Languages
 * The project will be developed with Python Programming Language
 ## Tools
