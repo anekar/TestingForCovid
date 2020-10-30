@@ -6,8 +6,7 @@ by date and country.
 Each row contains the corresponding data for a certain date (day or week) and per country.
 ```
 ## Collecting Data From
-* Data from [European Centre for Disease Prevention and Control
-](European Centre for Disease Prevention and Control)
+* Data from European Centre for Disease Prevention and Control
  
 ## Cleaning Data
 ```
