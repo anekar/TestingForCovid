@@ -6,8 +6,8 @@ by date and country.
 Each row contains the corresponding data for a certain date (day or week) and per country.
 ```
 
-## Collecting Data From
-* Data from European Centre for Disease Prevention and Control
+## Collecting Data 
+* European Centre for Disease Prevention and Control
  
 ## Cleaning Data
 ```
@@ -39,13 +39,13 @@ to know key insigths of the data.
 ![df before cleaning](https://user-images.githubusercontent.com/47696240/97710170-10a39400-1ac4-11eb-88df-24f324d5b38b.png)
 
 ## Languages
-* The project will be developed with Python Programming Language
+* The project will be developed with R Programming Language
+
 ## Tools
 * Google Collab
 
 ## Libraries
-1. Numpy and 
-2. Pandas 
+1. Tidyverse
 
 ## Source 
 https://www.ecdc.europa.eu/en/publications-data/covid-19-testing
