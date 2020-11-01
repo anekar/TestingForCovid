@@ -25,7 +25,7 @@ to know key insigths of the data.
    Cleaning the dataframe i came across with some problems
    1. New column names must be replace the old ones
    2. Unnecessary columns must be deleted
-   3. The year_week column is not following the 3rd normality form
+   3. The year_week column is not following the 3rd normality form and it has scientific notations
    4. The week variable must be inserted in a new column
 
 ## Visualization Tools
