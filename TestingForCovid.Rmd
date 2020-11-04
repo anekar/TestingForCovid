@@ -1,0 +1,97 @@
+---
+title: "TestingForCovid"
+author: "anestis.karonidis@gmail.com"
+date: "1/11/2020"
+output: html_document
+---
+
+
+```{r , testing}
+setwd('C:/Users/iMasteRepair/Desktop/TestingForCovid')
+
+```
+
+```{r, importing}
+library(readxl)
+library(tidyverse)
+library(xlsx)
+df <- read_excel("TestingForCovid.xlsx")
+```
+
+```{r detecting issues}
+SampleData <- df 
+
+# 1. year_week variable  must be in separate columns
+
+df <- df %>% separate(year_week, c('year', 'week'))
+
+df
+
+# removing the character 'W' from the rows of week column
+
+
+SampleData <- gsub('W', "", SampleData$week)
+View(week)
+
+df <- bind_cols(df, week)
+
+df <- subset(df, select = -c(country_code, week1))
+
+
+names(df) [10] <- 'Week'
+```
+
+
+```{r, Changing the format of the variables}
+df$year <- as.numeric(df$year)
+df$new_cases <- as.numeric(df$new_cases)
+df$tests_done <- as.numeric(df$tests_done)
+df$population <- as.numeric(df$population)
+df$testing_rate <- as.numeric(df$testing_rate)
+df$positivity_rate <- as.numeric(df$positivity_rate)
+df$Week <- as.numeric(df$Week)
+```
+
+
+```{r, Detecting more problems}
+df
+
+# Problem 1: The week column name must be like '15', '16' etc.
+# Problem 2: Scientific notation must be deleted from the testing rate column 
+```
+
+```{r Solving problem 1 }
+# Importing the variable week in the main dataframe 
+
+df <- bind_cols(df, week)
+
+# deleting the duplicate variable week
+
+df <- subset(df, select = -c(week))
+
+# Renaming the main variable 
+df <- df %>% rename(Week = week1)
+
+df
+
+```
+
+```{r Solving problem 2 }
+# Selecting the options function we apply scipen equal to 999
+
+options(scipen = 999)
+
+df
+```
+```{r Detecing na values in the df}
+sum(is.na(df))
+
+df <- na.omit(df)
+
+summary(df)
+```
+
+
+```{r, Extracting the df}
+write.xlsx(df, file = 'TestCovid.xlsx')
+```
