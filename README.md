@@ -47,7 +47,7 @@ to know key insigths of the data.
 * The project will be developed with R Programming Language
 
 ## Tools
-* Google Collab
+* RStudio
 
 ## Libraries
  1.Tidyverse <br>
