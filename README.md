@@ -7,12 +7,12 @@ Each row contains the corresponding data for a certain date (day or week) and pe
 ```
 
 ## Collecting Data 
-* European Centre for Disease Prevention and Control
+* The data have been collected from the European Centre for Disease Prevention and Control
  
 ## Cleaning Data
 ```
 In order to detect anomalies, NA values, outliers and other 
-problems we need to clean the data.
+problems we need to clean the data in order to make the dataframe tidy.
 
 ```
 ## Exploratory Data Analysis
