@@ -50,9 +50,9 @@ to know key insigths of the data.
 * RStudio
 
 ## Libraries
- 1.Tidyverse <br>
- 2.XLSX <br>
- 3.Readxl
+ 1.libray(tidyverse) <br>
+ 2.library(XLSX) <br>
+ 3.library(readxl)
 
 
 ## Source 
