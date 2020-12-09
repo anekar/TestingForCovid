@@ -21,14 +21,14 @@ To get a sense of the data a basic exploratory in the data is required, in order
 to know key insigths of the data.
 ```
 
-## Problems with the dataframe
+## Some Problems 
    Cleaning the dataframe i came across with some problems
    1. New column names must be replace the old ones
    2. Unnecessary columns must be deleted
    3. The year_week column is not following the 3rd normality form and it has scientific notations
    4. The week variable must be inserted in a new column
 
-## Visualization Tools
+## Visualizations
    1. **Tableau**
    2. **Excel**
 
@@ -44,9 +44,9 @@ to know key insigths of the data.
 
 
 ## Languages
-* The project will be developed with R Programming Language
+* R Programming Language
 
-## Tools
+## Integrated Development Environment
 * RStudio
 
 ## Libraries
