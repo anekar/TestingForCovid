@@ -21,7 +21,7 @@ To get a sense of the data a basic exploratory in the data is required, in order
 to know key insigths of the data.
 ```
 
-## Some Problems 
+## Problems
    Cleaning the dataframe i came across with some problems
    1. New column names must be replace the old ones
    2. Unnecessary columns must be deleted
