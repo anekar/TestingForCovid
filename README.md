@@ -29,7 +29,10 @@ to know key insigths of the data.
    4. The week variable must be inserted in a new column
 
 ## Visualizations
-   1. **Tableau**
+<p> Visuals with: <br>
+
+
+   1. **Tableau** and <br>
    2. **Excel**
 
 
