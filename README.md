@@ -32,8 +32,8 @@ to know key insigths of the data.
 <p> Visuals with: <br>
 
 
-   1. **Tableau** and <br>
-   2. **Excel**
+   1. **Tableau Public** and <br>
+   2. **Microsoft Excel**
 
 
 ## Screenshots
