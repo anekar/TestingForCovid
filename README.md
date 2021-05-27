@@ -7,7 +7,7 @@ Each row contains the corresponding data for a certain date (day or week) and pe
 ```
 
 ## Collecting Data 
-* The data have been collected from the European Centre for Disease Prevention and Control
+ The data have been collected from the European Centre for Disease Prevention and Control
  
 ## Cleaning Data
 ```
