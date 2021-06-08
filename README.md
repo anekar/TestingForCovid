@@ -18,7 +18,7 @@ problems we need to clean the data in order to make the dataframe tidy.
 ## Exploratory Data Analysis
 ```
 To get a sense of the data a basic exploratory in the data is required, in order
-to know key insigths of the data.
+to know key insigths of the data provided.
 ```
 
 ## Problems Faced
