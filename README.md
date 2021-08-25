@@ -1,3 +1,5 @@
+https://img.shields.io/github/issues/anekar/TestingForCovid
+
 # Project Info
 ```
 The downloadable data files contain information about hospitalisation and
