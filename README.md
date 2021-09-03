@@ -1,15 +1,15 @@
-#Shields
+
 [![GitHub issues](https://img.shields.io/github/issues/anekar/TestingForCovid)](https://github.com/anekar/TestingForCovid/issues)
 ![Lines of code](https://img.shields.io/tokei/lines/github/anekar/TestingForCovid)
 ![GitHub watchers](https://img.shields.io/github/watchers/anekar/TestingForCovid?style=social)
 ![GitHub last commit](https://img.shields.io/github/last-commit/anekar/TestingForCovid)
 
 
-# Project Info
+# Project Information
 The downloadable data files contain information about hospitalisation and
 Intensive Care Unit (ICU) admission rates and current occupancy for COVID-19 by date and country. Each row contains the corresponding data for a certain date (day or week) and per country.
 
-#Installation
+# Installation
 Install the libraries  from CRAN as follows
 ```R
 install.packages('tidyverse')
@@ -17,7 +17,7 @@ install.packages('readxl')
 install.packages('ggplot2')
 install.packages('readr')
 ```
-OR with devtools from github
+OR with ```devtools package``` as follows from github
 ```R
 devtools::install_github("tidyverse/tidyverse")
 ```
@@ -26,7 +26,7 @@ devtools::install_github("tidyverse/tidyverse")
 ```R
 European Centre for Disease Prevention and Control
 ```
-#Project Phases
+# Project Phases
 <details>
 <summary>Project Phases</summary>
 
@@ -53,7 +53,7 @@ European Centre for Disease Prevention and Control
 
 </details> 
 
-#Code Samples
+# Code Samples
 * Importing the dataset
 ```R
 df <- read_excel("TestingForCovid.xlsx")
@@ -67,11 +67,11 @@ df$new_cases <- as.numeric(df$new_cases)
 ```R
 write.xlsx(df, file = 'TestCovid.xlsx')
 ```
-#Project Goal
+# Project Goal
 The goal of this project aims to analyze certain information about hospitalization, ICU(Intensive Care Units)
 and current occupancy of COVID-19.
  
-#Visuals
+# Visuals
 <details>
 <summary>Raw Data</summary>
  
@@ -86,7 +86,7 @@ and current occupancy of COVID-19.
 </details>
 
 
-## Problems Faced
+# Problems Faced
 * Analzying this dataset i came across with varius problems such as:
  ```R 
    1. The column names must be replaced
@@ -95,9 +95,7 @@ and current occupancy of COVID-19.
    4. The week variable must be inserted in a new column
    5. Scientific notation 
  ```
-## Visualizations
-Visuals with 
-
+# Visualizations
 ```Tableau Public```,
 
 ```Microsoft Excel```
