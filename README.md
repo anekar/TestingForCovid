@@ -4,7 +4,6 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/anekar/TestingForCovid?style=social)
 ![GitHub last commit](https://img.shields.io/github/last-commit/anekar/TestingForCovid)
 
-
 # Project Information
 The downloadable data files contain information about hospitalisation and
 Intensive Care Unit (ICU) admission rates and current occupancy for COVID-19 by date and country. Each row contains the corresponding data for a certain date (day or week) and per country.
